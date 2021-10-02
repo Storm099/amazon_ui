@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:amazon_ui/pages/home_page.dart';
+import 'package:amazon_ui/pages/signin_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -18,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(const Duration(seconds: 3),() => Navigator.pushReplacementNamed(context, HomePage.id));
+    Timer(const Duration(seconds: 3),() => Navigator.pushReplacementNamed(context, SignInPage.id));
   }
 
   @override

@@ -1,4 +1,6 @@
 import 'package:amazon_ui/pages/home_page.dart';
+import 'package:amazon_ui/pages/signin_page.dart';
+import 'package:amazon_ui/pages/signup_page.dart';
 import 'package:amazon_ui/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +23,8 @@ class MyApp extends StatelessWidget {
       routes: {
         HomePage.id:(context) => const HomePage(),
         SplashPage.id:(context) => const SplashPage(),
+        SignInPage.id:(context) => const SignInPage(),
+        SignUpPage.id:(context) => const SignUpPage(),
       },
     );
   }
